@@ -1,0 +1,24 @@
+{
+  "server": {
+    "name": "expense-workshop",
+    "version": "1"
+  },
+  "tools": [
+    {
+      "name": "get_expense",
+      "description": "查詢有權讀取的報帳單。",
+      "inputSchema": {
+        "type": "object",
+        "properties": {
+          "expense_id": {
+            "type": "string"
+          }
+        },
+        "required": [
+          "expense_id"
+        ],
+        "additionalProperties": false
+      }
+    }
+  ]
+}

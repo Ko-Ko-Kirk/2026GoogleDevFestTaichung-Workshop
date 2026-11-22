@@ -1,0 +1,45 @@
+{
+  "date": "2026-11-21",
+  "runs": {
+    "alice": {
+      "run_id": "hydrogen-expense-c9bc6b6bd3e8",
+      "api": "Vertex AI",
+      "model": "gemini-4-hydrogen",
+      "principal": "alice",
+      "tool": "get_expense",
+      "arguments": {
+        "expense_id": "EXP-ALICE"
+      },
+      "decision": "allowed",
+      "model_calls": 2,
+      "executed_tool_calls": 1,
+      "receipt_count": 1,
+      "readback": "local-file-readback",
+      "changed_expenses": {},
+      "tool_result": {
+        "owner": "alice",
+        "tenant": "panda",
+        "amount": 120,
+        "status": "pending"
+      },
+      "receipt_id": "c8c75882babf6618ae5fa4a27f379d0a9521cc01c33c0bdd46c2db9c8f1b06ae"
+    },
+    "bob": {
+      "run_id": "hydrogen-expense-422690975432",
+      "api": "Vertex AI",
+      "model": "gemini-4-hydrogen",
+      "principal": "alice",
+      "tool": "get_expense",
+      "arguments": {
+        "expense_id": "EXP-BOB"
+      },
+      "decision": "application_authorization",
+      "model_calls": 1,
+      "executed_tool_calls": 0,
+      "receipt_count": 0,
+      "readback": "local-file-readback",
+      "changed_expenses": {},
+      "denial": "Employees can only read their own expenses"
+    }
+  }
+}
