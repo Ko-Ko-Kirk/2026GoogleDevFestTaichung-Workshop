@@ -1,4 +1,4 @@
-# DevFest 台中 2026｜報帳 Agent 安全實作
+# 從 MCP Tool Poisoning 到 Google Cloud Agent Security 實戰
 
 Alice 可以查自己的報帳。如果她要求查 Bob 的單，究竟是模型、Google 的安全服務，還是報帳程式決定要不要執行？這是「從 MCP Tool Poisoning 到 Google Cloud Agent Security 實戰」的聽眾教材。所有金額、單號與人物都是合成資料。
 
