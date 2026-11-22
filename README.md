@@ -2,6 +2,10 @@
 
 Alice 可以查自己的報帳。如果她要求查 Bob 的單，究竟是模型、Google 的安全服務，還是報帳程式決定要不要執行？這是「從 MCP Tool Poisoning 到 Google Cloud Agent Security 實戰」的聽眾教材。所有金額、單號與人物都是合成資料。
 
+[下載台中場投影片（PDF，59 頁）](https://raw.githubusercontent.com/Ko-Ko-Kirk/2026GoogleDevFestTaichung-Workshop/main/slides/DevFest-Taichung-2026.pdf)
+
+講者原創的投影片文字與圖解沿用教材的 [MIT 授權](LICENSE)。書封、商標與第三方截圖的權利屬於各權利人。
+
 ## 跑一遍 Alice 的例子
 
 使用 Python 3.10 或更新版本，在專案根目錄執行。只用 Python 標準函式庫，不需雲端帳號或 API 金鑰。
